@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+.container{
+    color: white;
+    width: 50%;
+    height: 200vh;
+    max-width: 50%;
+    
+}
+.background{
+    
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    background-image: url('./twitterbck.png');
+    background-position: center;
+    width:58%;
+    max-width: 58%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo{
+    fill: #ffff;
+    max-width: 40%;
+    width: 230px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    max-block-size: 230px;
+}   
+
+.logo-menorzinha{
+    fill: #ffff;
+    max-width: 10%;
+  
+
+}
+
+.final{
+    cursor: pointer;
+    
+}
+.final:hover{
+    color: #ffff;
+}
